@@ -1,0 +1,19 @@
+package basic;
+
+//비교연산자 - 결과가 true(참,yes)/false(거짓,no)
+public class OprTest2{
+	public static void main(String[] args){
+		int num1 = 100;
+		int num2 = 200;
+		int num3 = 100;
+		//+연산자는 더하기의 의미와 연결연산자
+		//+앞의 값이 문자열(String)이면 뒤의 값도 영향을 받아서 문자열화 되므로 연산을 할 수 없다.
+		System.out.println("더한결과=>"+(100+200));
+		System.out.println("num1>num2==>"+(num1>num2));
+		System.out.println("num1>=num2==>"+(num1>=num2));
+		System.out.println("num1<num2==>"+(num1<num2));
+		System.out.println("num1<=num2==>"+(num1<=num2));
+		System.out.println("num1==num3==>"+(num1==num3));
+		System.out.println("num1!=num3==>"+(num1!=num3));
+	}
+}
